@@ -1,0 +1,104 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* code to style images */
+
+img {
+  width: 300px;
+}
+
+/* this will center image */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* this will add curved styling to the image border */
+
+.image-circle {
+    border-radius: 50%; 
+}
+
+/* header styling */
+
+header {
+  background-color: #465f62;  
+}
+
+header h1, h3 {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #e8e8e8;
+}
+
+header h1 {
+  margin: 0;
+  padding-top: 20px;
+  font-size: 58px;
+}
+
+header h3 {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+/* main styling */
+
+main {
+  background-image: url(images/background-image.jpg);
+}
+
+/* class below used to determine width of div containers */
+
+.wrapper {
+  width: 600px;
+  margin: auto;
+}
+
+/* styling for main content headers and paragraphs */
+
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* style for lists */
+
+ul, ol {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* horizontal ruler width set to same as wrapper width */
+
+hr {
+  max-width: 600px;
+}
+
+/* below is pseudo class styling */
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+a:link    { color: green;  }
+a:visited { color: #3CB371	;   }
+a:hover   { color: lightgreen; }
+a:active  { color: darkgreen;  }
+
+/* footer styling */
+
+footer {
+  background-color: #465f62;
+  color: #e8e8e8;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
